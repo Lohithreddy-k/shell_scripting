@@ -1,0 +1,48 @@
+syntax for if statement
+if [ condition ];
+then 
+	statement
+fi
+
+
+syntax for if-else statement
+if [ condition ];
+then 
+	statement1
+else
+	statement2
+fi
+
+
+syntax for if-elif statement
+if [ condition1 ];
+then 
+	statement1
+elif [ condition2 ];
+then 
+	statement2
+else 
+	statement3
+fi
+
+
+syntax for for-loop statement
+for var in list
+do
+	statement
+done
+
+
+
+syntax for while-loop statement
+while [ condition ]
+do
+        statement
+done
+
+
+syntax for until-loop statement
+until [ condition ]
+do
+        statement
+done
