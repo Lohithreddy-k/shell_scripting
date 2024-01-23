@@ -26,6 +26,25 @@ else
 fi
 
 
+syntax for nested-if statement 
+combination of any two condition statements
+
+
+
+syntax for case-statement
+case expression in
+ case1) statement;;
+ case2) statement;;
+ case3) statement;;
+ .
+ .
+ .
+ *) statement;;
+esac
+
+#* ;; used to break the statement
+#* * used for default statement
+############################
 syntax for for-loop statement
 for var in list
 do
